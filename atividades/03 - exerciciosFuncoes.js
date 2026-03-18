@@ -9,7 +9,7 @@ Lista de Exercícios
  veículo faz uma média de 12 Km/L.
 */
 
-console.log("===================IDADE===============================");
+console.log("====================IDADE==========================");
 
 function subtrair(anoAtual, anoNascimento) {
   let idadeAtual = anoAtual - anoNascimento;
@@ -27,7 +27,7 @@ console.log(
 );
 console.log("__________________________________________________");
 
-console.log("===================TRAJETO===============================");
+console.log("===================TRAJETO========================");
 
 function multiplicar(quantCombustivel, kilometros) {
   let kmViagem = quantCombustivel * kilometros;
