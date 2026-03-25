@@ -43,4 +43,3 @@ console.log("x maior que y?", x > y); // maior que
 console.log("x menor que y?", x < y); // menor que
 console.log("x maior ou igual a y?", x >= y); //maior igual que
 console.log("x menor ou igual a y?", x <= y); //menor igual que
-
