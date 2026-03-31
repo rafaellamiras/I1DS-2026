@@ -370,6 +370,113 @@ switch (avaliacao) {
 }
 
 console.log("=================================================");
+//ATIVIDADE 4 //
+for (let i = 1; i <= 100; i++) { 
+
+console.log(i); 
+} 
+console.log( 
+
+"==================================================================================", 
+
+); 
+
+for (let i = 100; i >= 1; i--) { 
+
+console.log(i); 
+
+} 
+console.log("================================================================================") 
+
+//28 
+
+for (let i = 2; i <= 50; i += 2) { 
+
+console.log(i); 
+
+} 
+
+console.log("================================================================================") 
+
+for (let i = 1; i <= 50; i += 2) { 
+
+console.log(i); 
+
+} 
+
+console.log("================================================================================") 
+
+let soma = 0; 
+
+for (let i = 1; i <= 100; i++) { 
+
+soma = soma + i;  
+
+} 
+
+console.log(soma); 
+
+console.log("================================================================================") 
+ 
+function fatorial(n) { 
+
+let resultado = 1; 
+ 
+for (let i = 1; i <= n; i++) { 
+
+resultado *= i; 
+
+} 
+return resultado; 
+
+} 
+
+let Numero = 5; 
+
+console.log("Fatorial:", fatorial(Numero)); 
+
+
+console.log("================================================================================") 
+
+let numTabuada = 5; 
+for (let i = 1; i <= 10; i++) { 
+
+numTabuada *i;  
+console.log(`${numTabuada} x ${i} = ${numTabuada * i}`); 
+
+} 
+
+
+console.log("================================================================================") 
+
+let total = 0; 
+
+for (let i = 2; i <= 100; i += 2) { 
+
+total++; 
+
+} 
+
+console.log(total);  
+
+ 
+
+console.log("================================================================================") 
+
+
+for (let i = 0; i <= 100; i++) { 
+
+if (i % 5 === 0) { 
+
+console.log(i); 
+} 
+} 
+
+console.log("================================================================================") 
+
+for (let i = 1; i <= 5; i++) { 
+console.log("*".repeat(i)); 
+} 
 
 // ATIVIDADE 5 //
 
@@ -400,4 +507,137 @@ console.log("A média da sequencia é:", media)
 
 console.log("=================================================");
 
+let vetor3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let maior = vetor3[0]
+ for (let i = 1; i < vetor3.length; i++) {
+  if (vetor3[i] > maior) {
+    maior = vetor3[i];
+  }
+}
 
+console.log(maior)
+
+console.log("=================================================");
+
+let vetor4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let menor = vetor4[0]
+ for (let i = 1; i > vetor3.length; i++) {
+  if (vetor4[i] < maior) {
+    maior = vetor4[i];
+  }
+}
+console.log(menor)
+
+console.log("=================================================");
+
+let nume3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let pares = 0;
+let impares = 0;
+
+for (let i = 0; i < nume3.length; i++) {
+if (nume3[i] % 2 === 0) {
+pares++;
+} else {
+impares++;
+}
+}
+
+console.log("Quantidade de números pares:", pares);
+console.log("Quantidade de números ímpares:", impares);
+
+console.log("=================================================");
+
+let vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let resultado = [];
+
+for (let i = 0; i < vetor.length; i++) {
+if (vetor[i] !== undefined) {
+resultado[i] = vetor[i] * 2;
+}
+}
+
+console.log(resultado);
+console.log("=================================================");
+
+var mattriz = [ 
+
+[9, 6, 7], 
+
+[3, 1, 4], 
+
+[5, 8, 2], 
+
+]; 
+
+//44 
+
+console.table(mattriz); 
+
+//44 
+
+console.log("Primeira diagonal:"); 
+
+console.log(mattriz[0][0]); 
+
+console.log(mattriz[1][1]); 
+
+console.log(mattriz[2][2]); 
+
+//45 
+
+console.log("Segunda diagonal"); 
+
+console.log(mattriz[0][2]); 
+
+console.log(mattriz[1][1]); 
+
+console.log(mattriz[2][0]); 
+
+ 
+
+let soma6=0 
+
+ 
+
+for (let linha = 0; linha < mattriz.length; linha++) 
+
+for (let coluna = 0; coluna < mattriz[0].length; coluna++) 
+
+soma2 += mattriz[linha][coluna] 
+
+ 
+
+console.log("A soma é:", soma2) 
+
+ 
+
+
+console.log("=================================================");
+
+
+
+//47
+
+
+
+
+
+
+
+console.log("=================================================");
+
+let matriz = [
+  [1, 1, 9],
+  [2, 5, 3],
+  [4, 8, 2],
+];
+console.table(matriz);
+
+for (let linha = 0; linha < matriz.length; linha++) {
+  for (let coluna = 0; coluna < matriz[linha].length; coluna++)
+    matriz[linha][coluna] *= 9;
+}
+console.table(matriz);
+
+console.log("=================================================");
