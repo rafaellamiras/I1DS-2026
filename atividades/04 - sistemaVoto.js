@@ -37,7 +37,7 @@ function podeVotar(idade) {
   return "Voto opcional, e não é obrigatório!";
 }
 
-let idade = 40;
+let idade = 50;
 
 console.log("Idade:", idade, "anos e você:", podeVotar(idade));
 
