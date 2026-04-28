@@ -1,13 +1,74 @@
 /* Reset da Página*/
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-font-size: 16px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-height: 100dvh;
-background-color: bisque;
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100dvh;
+}
+header /* cabeçalho(bloco) */ {
+  background-color: #1e90ff; /*Cor do fundo*/
+  color: white; /*cor da letra*/
+  padding: 24px;
+  text-align: center;
+  font-size: 24px;
+}
+/* MENU DE NAVEGAÇÃO */
+
+nav {
+  background-color: #333;
+  display: flex; /*Ajusta a posição e tenta encaixar nos espaços em branco*/
+  justify-content: center;
+  gap: 24px;
+  padding: 12px; /*Margem interna (menu)*/
+  position: sticky;
+  top: 0;
+  z-index: 1000; /*Indice*/
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold; /* Fica em negrito */
+}
+
+nav a:hover {
+  /*Efeito quando passa o mouse*/
+  color: #1e90ff;
+  font-style: italic;
+  cursor: grab;
+}
+/* LAYOUT PRINCIPAL // LEIAUTE */
+main {
+  display: flex;
+  gap: 24px; /*espaçamento letras*/
+  padding: 24px;
+}
+
+/* LATERAL */
+aside {
+  width: 25%;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* CONTEÚDO */
+section {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+/* RODAPÉ */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  position: fixed; /*sua localidade*/
+  bottom: 0; /* localidade na folha*/
+  width: 100%;
 }
